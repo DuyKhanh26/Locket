@@ -56,8 +56,8 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "Nhớ follow kênh tiktok @ndkhanh2605 ✨",
-                    body: "Một follow của bạn, một niềm vui của mình 💛",
-                    imageURL: "https://i.ibb.co/MyZ3r5Fy/E18-CD33-D-A06-A-4475-90-D5-A2-E3-F15-FCA83.png"
+                    body: "Một follow của bạn, một niềm vui và động lực để mình phát triển 💕",
+                    imageURL: "https://i.ibb.co/CpDNP4VL/58-F56-C16-00-F2-466-E-8708-8525-B6-BB7-C41.png"
                 }
             ],
             primary_button_title: "Xong",
