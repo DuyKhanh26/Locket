@@ -56,7 +56,7 @@ if (ua.includes("Locket")) {
             feature_set: [
                 {
                     title: "Nhớ follow kênh tiktok @ndkhanh2605 ✨",
-                    body: "Một follow của bạn, một niềm vui và động lực để mình phát triển 💕",
+                    body: "Một follow của bạn là một niềm vui và động lực để mình phát triển 💕",
                     imageURL: "https://i.ibb.co/CpDNP4VL/58-F56-C16-00-F2-466-E-8708-8525-B6-BB7-C41.png"
                 }
             ],
