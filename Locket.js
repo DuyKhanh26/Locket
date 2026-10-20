@@ -385,6 +385,8 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:ban_tin_khan", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "BẢN TIN KHẨN", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:nong_hoi", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "Nóng hổi vừa thổi vừa xem", text_color: "#FFFFFF", type: "static_content" } },
                     { overlay_id: "caption:dang_truc_tiep", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "ĐANG TRỰC TIẾP", text_color: "#FFFFFF", type: "static_content" } },
+                ]
+            },
             {
                 section: "🎨 Holiday Caption",
                 items: [
