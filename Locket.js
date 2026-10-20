@@ -378,6 +378,14 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
+                section: "📺 Tin Nóng",
+                items: [
+                    { overlay_id: "caption:tin_nong_live", source: "remote", caption: { background: { colors: ["#FF0000", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "LNN LIVE Tin nóng", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:tin_nong_red", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "TIN NÓNG", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:ban_tin_khan", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "BẢN TIN KHẨN", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:nong_hoi", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "Nóng hổi vừa thổi vừa xem", text_color: "#FFFFFF", type: "static_content" } },
+                    { overlay_id: "caption:dang_truc_tiep", source: "remote", caption: { background: { colors: ["#2B2B2B", "#CC0000"] }, icon: { data: "🔴", type: "emoji" }, max_lines: 1, text: "ĐANG TRỰC TIẾP", text_color: "#FFFFFF", type: "static_content" } },
+            {
                 section: "🎨 Holiday Caption",
                 items: [
                     { overlay_id: "caption:halloween_2026", source: "remote", caption: { background: { colors: ["#150804", "#C8540D"] }, icon: { type: "image", data: "https://storage.googleapis.com/locket-public/journal_calendar_assets/holiday_indicators/halloween_indicator%403x.png", source: "url" }, max_lines: 1, text: "Halloween", localized_text: { en: "Halloween", vn: "Halloween" }, text_color: "#FFB182", type: "static_content" } },
