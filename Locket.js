@@ -372,7 +372,6 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:star_sign", source: "local", caption: { type: "star_sign" } },
                     { overlay_id: "caption:color_palette", source: "local", caption: { type: "color_palette" } },
                     { overlay_id: "caption:live", source: "local", caption: { type: "live" } },
-                    { overlay_id: "caption:breaking_news", source: "local", caption: { type: "breaking_news" } },
                     { overlay_id: "caption:locket_count", source: "local", caption: { type: "locket_count" } },
                 ]
             },
@@ -392,6 +391,7 @@ if (ua.includes("Locket")) {
             {
                 section: "🎨 Decorative by Locket",
                 items: [
+                    { overlay_id: "caption:breaking_news", source: "local", caption: { type: "breaking_news" } },
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:party_time", source: "remote", caption: { background: { colors: ["#5EFFF5", "#FCFF57"] }, icon: { data: "🪩", type: "emoji" }, max_lines: 1, text: "Party Time!", text_color: "#000000E6", type: "static_content" } },
                     { overlay_id: "caption:good_morning", source: "remote", daily_start_hour: 5, daily_end_hour: 10, caption: { background: { colors: ["#EF7402", "#EABF0F"] }, icon: { data: "☀️", type: "emoji" }, max_lines: 1, text: "Good morning", text_color: "#FFFFFFE5", type: "static_content" } },
