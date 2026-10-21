@@ -1,5 +1,5 @@
 /***********************************************
-> deleteHeader by duyvinh09 convert by facebook.com/duykhanhdaya
+> deleteHeader convert by facebook.com/duykhanhdaya
 ***********************************************/	
 
 const version = 'V1.0.2';
