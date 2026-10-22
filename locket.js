@@ -266,8 +266,6 @@ if (ua.includes("Locket")) {
         widget_frame_event: JSON.stringify({
             uid: "midautumn_2026",
             url: "https://i.ibb.co/s4j3SRR/Duy-Kh-nh.png",
-            // url: "https://i.ibb.co/RTm5P1n9/kitty-1.png",
-            // url: "https://i.ibb.co/JjLZ3cvD/khung-ins.png",
             use_local_time_zone: true,
             placement: "below",
             start_at: "2020-01-01T00:00:00",
@@ -339,6 +337,77 @@ if (ua.includes("Locket")) {
         use_thumbnails_in_timeline: "true",
         persist_onboarding_step: "true",
         onboarding_contact_permission_step: "true",
+        custom_widget_frames: "enabled",
+        custom_widget_frames_enabled: "true",
+        widget_frames_config: JSON.stringify({
+            enabled: true,
+            allow_custom_frames: true,
+            unlock_all_styles: true,
+            default_style: "royal_gold_vip",
+            styles: [
+                {
+                    id: "royal_gold_vip",
+                    name: "👑 VIP Royal Gold",
+                    border_style: "ornate_gold",
+                    crown_badge: true,
+                    badge_text: "VIP",
+                    corner_radius: 28.0,
+                    glow_effect: true,
+                    glow_color: "#FFD700",
+                    overlay_asset: "royal_crown_frame"
+                }
+            ]
+        }),
+         // Danh sách ID khung đè vào menu chọn widget
+
+        widget_frame_styles: JSON.stringify([
+
+            "royal_gold_vip",
+
+            "gold_luxury",
+
+            "classic"
+
+        ]),
+
+        // Cấu hình sự kiện / Seasonal Frames đè
+
+        seasonal_frames_config: JSON.stringify({
+
+            enabled: true,
+
+            auto_rotate: false,
+
+            override_default: true,
+
+            current_season_theme: "royal_gold_vip"
+
+        }),
+        live_activity_onboarding: "true",
+        live_activity_onboarding_variant: "friending",
+        register_live_activity_push_to_start_token: "true",
+        live_activity_remove_stale_start_token: "true",
+        notification_preferences_live_activities: "true",
+        notification_preferences: "true",
+        notification_reply_body_visible: "true",
+        prompt_notification_permissions_after_friending: "true",
+        activity_bar_enabled: "true",
+        journal_activity_bar_enabled: "true",
+        journal_settings: JSON.stringify({
+            debug_menu_enabled: false,
+            focus_animation: true,
+            compact_header: true,
+            friends_button: true,
+            reverse_scroll_direction: false,
+            streak_visualization: true,
+            streak_visualization_style: "gradient",
+            streak_header_minimum_count: 0,
+            streak_visualization_minimum_count: 2,
+            overlay_indicators: { location: true, music: true, static_content: true, weather: true }
+        }),
+        qr_code_config: JSON.stringify({ profile_enabled: true, scanning_enabled: true }),
+        custom_profile_pics: "true",
+        profile_menu_v2_enabled: "true"
     });
 
     // ============================================================
