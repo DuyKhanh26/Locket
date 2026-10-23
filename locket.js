@@ -447,7 +447,7 @@ if (ua.includes("Locket")) {
                 items: [
                     { overlay_id: "caption:betchen", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "🥰", type: "emoji" }, max_lines: 1, text: "Bét Phen Pho Ri Vờ", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:bungkeo", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "⚡️", type: "emoji" }, max_lines: 1, text: "Lạy chúa bạn tôi bùng kèo", text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:anh_nhom", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "📸", type: "emoji" }, max_lines: 1, text: "Chụp ảnh nhóm", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:anhnhom", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "📸", type: "emoji" }, max_lines: 1, text: "Chụp ảnh nhóm", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:banguoi", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "😎", type: "emoji" }, max_lines: 1, text: "Mình có 3 người", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:tuivaban", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "😎", type: "emoji" }, max_lines: 1, text: "Tui và mấy đứa bạn", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:banlagi", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "😏", type: "emoji" }, max_lines: 1, text: "Bạn là gì tao cũng không biết bạn là gì", text_color: "#FFFFFFE6", type: "static_content" } },
@@ -461,7 +461,7 @@ if (ua.includes("Locket")) {
                     { overlay_id: "caption:dongnghiep", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Đồng nghiệp của tui là rắn", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:motoran", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "🐍", type: "emoji" }, max_lines: 1, text: "Một ổ rắn", text_color: "#FFFFFFE6", type: "static_content" } },
                     { overlay_id: "caption:sep", source: "remote", caption: { background: { colors: ["#607D8B", "#37474F"] }, icon: { data: "😎", type: "emoji" }, max_lines: 1, text: "Sếp tuiii", text_color: "#FFFFFFE6", type: "static_content" } },
-                    { overlay_id: "caption:du_an_ma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } },
+                    { overlay_id: "caption:duanma", source: "remote", caption: { background: { colors: ["#263238", "#455A64"] }, icon: { data: "👻", type: "emoji" }, max_lines: 1, text: "dự án ma", text_color: "#FFFFFFE6", type: "static_content" } },
                 ]
             },
             {
