@@ -443,16 +443,6 @@ if (ua.includes("Locket")) {
                 ]
             },
             {
-                section: "📺 Tin nóng",
-                items: [
-                    { overlay_id: "caption:tinnong", source: "remote", caption: { background: { colors: "#000000" }, icon: { data: "🛑", type: "emoji" }, max_lines: 1, text: "TIN NÓNG", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:tinkhan", source: "remote", caption: { background: { colors: "#000000" }, icon: { data: "📢", type: "emoji" }, max_lines: 1, text: "BẢN TIN KHẨN", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:nonghoi", source: "remote", caption: { background: { colors: "#000000" }, icon: { data: "🚨", type: "emoji" }, max_lines: 1, text: "Nóng hổi vừa thôi vừa xem", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:tindocquyen", source: "remote", caption: { background: { colors: "#000000" }, icon: { data: "📰", type: "emoji" }, max_lines: 1, text: "TIN ĐỘC QUYỀN", text_color: "#FFFFFF", type: "static_content" } },
-                    { overlay_id: "caption:tructiep", source: "remote", caption: { background: { colors: "#000000" }, icon: { data: "🛑", type: "emoji" }, max_lines: 1, text: "ĐANG TRỰC TIẾP", text_color: "#FFFFFF", type: "static_content" } },
-                ]
-            },
-            {
                 section: "🎨 Decorative by Locket",
                 items: [
                     { overlay_id: "caption:toi_nho_em", source: "remote", caption: { background: { colors: ["#FFFFFF", "#6D9EEB"] }, max_lines: 1, text: "보고 싶어 🥺", text_color: "#000000E6", type: "static_content" } },
