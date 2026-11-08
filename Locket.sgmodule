@@ -52,7 +52,7 @@ youtube.request.log_event = type=http-request,pattern=^https:\/\/youtubei\.googl
 deleteHeader_RC = type=http-request,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/deleteHeader.js,timeout=60
 deleteHeader_Firebase = type=http-request,pattern=^https?:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+,script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/deleteHeader.js,timeout=60
 
-revenuecat = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/Locket_duykhanh05,requires-body=true,max-size=-1,timeout=60
+revenuecat = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/Locket_duykhanh05.js,requires-body=true,max-size=-1,timeout=60
 locket_rc = type=http-response,pattern=^https:\/\/firebaseremoteconfig\.googleapis\.com\/v1\/projects\/locket-4252a\/.+,script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/Locket_Unlocked.js,requires-body=true,max-size=-1,timeout=60
 
 locket_pb_req = type=http-request,pattern=^https?:\/\/(us-central1-locket-4252a\.cloudfunctions\.net|api\.locketcamera\.com)\/generateFilteredImage,script-path=https://raw.githubusercontent.com/DuyKhanh26/Locket/refs/heads/main/Locket_Photobooth.js,requires-body=true,max-size=-1,timeout=60
