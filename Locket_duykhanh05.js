@@ -3,7 +3,7 @@ const mapping = {
   'Locket': ['Gold']
 };
 // =========   Phần cố định  ========= // 
-// =========  @minhhiep08 ========= // 
+// =========  @ndkhanh2605 ========= // 
 var ua = (typeof $request !== "undefined" && $request && $request.headers) ? ($request.headers["User-Agent"] || $request.headers["user-agent"] || "") : "";
 var obj = {};
 try {
@@ -31,15 +31,15 @@ var minhhiep08 = {
       grace_period_expires_date: null,
       refunded_at: null,
       unsubscribe_detected_at: null,
-      original_purchase_date: "2005-01-09T10:10:15Z",
-      purchase_date: "2005-01-09T10:10:14Z",
+      original_purchase_date: "2005-05-26T10:10:15Z",
+      purchase_date: "2005-05-26T10:10:14Z",
       store: "app_store",
       store_transaction_id: "2000001108724193",
   },
   locketGold = {
       grace_period_expires_date: null,
-      purchase_date: "2005-01-09T10:10:14Z",
-      original_purchase_date: "2005-01-09T10:10:15Z",
+      purchase_date: "2005-05-26T10:10:14Z",
+      original_purchase_date: "2005-05-26T10:10:15Z",
       product_identifier: "locket_1600_1y",
       product_plan_identifier: "locket_1600_1y",
       ownership_type: "PURCHASED",
