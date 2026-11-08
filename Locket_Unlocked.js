@@ -139,9 +139,9 @@ Object.assign(obj.entries, {
         title: "Lên LocketGold rồi đó 😎",
         feature_set: [
             {
-                title: "Nhớ follow tiktok @ltocamz ✨",
-                body: "Một follow của bạn, một niềm vui của mình 💛",
-                imageURL: "https://locket-vip.mhiep20077.workers.dev/assets/gold_welcome.jpg"
+                title: "Nhớ follow kênh tiktok @ndkhanh2605 ✨ nhá",
+                body: "Một follow của bạn là một niềm vui và động lực để mình phát triển 💕",
+                imageURL: "https://i.ibb.co/CpDNP4VL/58-F56-C16-00-F2-466-E-8708-8525-B6-BB7-C41.png"
             }
         ],
         primary_button_title: "Xong",
@@ -153,8 +153,8 @@ Object.assign(obj.entries, {
     android_subscribe_gold_button_enabled: "false",
     profile_badge_visible: "true",
     lunar_new_year_app_icon_enabled: "true",
-    settings_instagram_url: "https://www.instagram.com/miinhhiep/",
-    settings_tiktok_url: "https://tiktok.com/@ltocamz",
+    settings_instagram_url: "https://www.instagram.com/duykhanhdaya/",
+    settings_tiktok_url: "https://tiktok.com/@ndkhanh2605",
 
     // BỘ CỜ MỞ KHÓA BỘ LỌC GOLD & TOÀN DIỆN
     country_code: "US",
